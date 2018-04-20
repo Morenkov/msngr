@@ -65,7 +65,6 @@ public class DBL {
     private List<User> getByIndex(int index) {
         String SqlQuery = "SELECT id, name, count, categories FROM products WHERE id = ?";
         PreparedStatement st = null;
-
         return  null;
     }
 
